@@ -815,3 +815,9 @@ padding: 10px 20px;
     font-size: 32px;
 
 }
+#conclusion {
+    width: 90%;
+}
+#note, #research, #feature, #mobileredline, #moodboard, #styletile, #guide {
+    width: 90%;
+}
