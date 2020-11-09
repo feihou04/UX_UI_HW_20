@@ -216,7 +216,7 @@ nav.flexheader {
     height: 100%;
 
 }
- .portfoliolist1, .portfoliolist3 .portfoliolist2 {
+ .portfoliolist1, .portfoliolist3, .portfoliolist2 {
     padding-bottom: 12px;
     font-size: 26px;
     font-weight: 600;
