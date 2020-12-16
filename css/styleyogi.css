@@ -867,18 +867,20 @@ padding: 10px 20px;
     padding-top: 70px;
     font-size: 32px;
 
+
 }
 .subtitle {
-    color: rgb(216, 108, 108)
+margin-top: 190px;
+font-weight: 700;
 }
 
 .main h3 {
     
-    font-size: 32px;
+    font-size: 30px;
     
 }
 .main h4 {
-    font-size: 28px;
+    font-size: 26px;
 }
 .main h5 {
     font-size: 24px;
@@ -906,4 +908,10 @@ top: 155px;
 left: 65px;
     font-size: 18px;
 }
+.topsection {
+
+    height: 650px;
+    width: 100vw;
+
+ }
 }
