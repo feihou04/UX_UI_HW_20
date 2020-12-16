@@ -715,11 +715,11 @@ transition: all 0.35s;
  
     "portfolioheading"
     "porfolio1"
-
+    "porfolio2"
     "porfolio3"
     "porfolio4";
     grid-template-columns: 100%;
-     grid-template-rows: auto auto auto auto ;
+     grid-template-rows: auto auto auto auto auto ;
 
 }
 
@@ -756,7 +756,7 @@ align-self: center;
 background-color:#f4e7d3 ;
 grid-column-start: 1;
 grid-row-start: 10;
-grid-row-end: 9;
+grid-row-end: 14;
 
 margin-right: 10%;
 margin-left: 10%;
@@ -769,22 +769,45 @@ grid-template-areas: "portfoliopic"
 grid-template-columns: 100%;
 grid-template-rows: auto;
 margin-top: -150px;
-
+margin-bottom: -20px;
 
 }
 .portfoliopic img {
 width: 100%;
 height: auto;
 }
-
+.portfolio2 {
+    grid-area: portfolio2;
+    justify-self: center;
+    align-self: center;
+    
+    background-color:#dfebed;
+    grid-column-start: 1;
+    grid-row-start: 15;
+    grid-row-end: 16;
+    
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 30px 30px 50px 30px;
+    
+    display: grid;
+    grid-template-areas: "portfoliopic"
+    
+    "detail";
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    margin-bottom: -20px;
+    
+    
+    }
 .portfolio3 {
 grid-area: portfolio3;
 justify-self: center;
 align-self: center;
 background-color: #ffd6ad;
 grid-column-start: 1; 
-grid-row-start: 10;
-grid-row-end: 25;
+grid-row-start: 17;
+grid-row-end: 18;
 padding:  30px 30px 50px 30px;
 margin-right: 10%;
 margin-left: 10%;
@@ -802,8 +825,8 @@ justify-self: center;
 align-self: center;
 background-color: #d4dae5;
 grid-column-start: 1;
-grid-row-start: 26;
-grid-row-end: 30;
+grid-row-start: 19;
+grid-row-end: 22;
 margin-right: 10%;
 margin-left: 10%;
 padding: 30px 30px 50px 30px;
@@ -845,17 +868,20 @@ padding: 10px 20px;
     font-size: 32px;
 
 }
-
+.subtitle {
+    color: rgb(216, 108, 108)
+}
 
 .main h3 {
-    font-size: 36px;
+    
+    font-size: 32px;
     
 }
 .main h4 {
-    font-size: 34px;
+    font-size: 28px;
 }
 .main h5 {
-    font-size: 26px;
+    font-size: 24px;
 }
 .main p{
     font-size: 22px;
@@ -873,5 +899,11 @@ padding: 10px 20px;
 }
 #note, #research, #feature, #mobileredline, #moodboard, #styletile, #guide {
     width: 90%;
+}
+.link a {
+    position: absolute;
+top: 155px;
+left: 65px;
+    font-size: 18px;
 }
 }
