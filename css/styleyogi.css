@@ -231,6 +231,12 @@ nav.flexheader {
     text-decoration: none;
     color: #19292d;
 }
+.portfoliolist li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffad6f;
+    transform: translateX(25px);
+    translate: all 0.25s;
+}
 /* case study main section*/
 .topsection {
     background-image: url(../images/yogicasestudy.jpg);
@@ -899,7 +905,7 @@ font-weight: 700;
 #conclusion {
     width: 90%;
 }
-#note, #research, #feature, #mobileredline, #moodboard, #styletile, #guide {
+#note, #research, #feature, #mobileredline, #moodboard, #styletile, #guide, #userflow1, #userflow2 {
     width: 90%;
 }
 .link a {
@@ -914,4 +920,5 @@ left: 65px;
     width: 100vw;
 
  }
+
 }
