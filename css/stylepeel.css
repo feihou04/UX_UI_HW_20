@@ -238,7 +238,7 @@ nav.flexheader {
     translate: all 0.25s;
 }
 /* case study main section*/
-.topsection {
+/*.topsection {
     background-image: url(../images/19-April-Desktop-PC_EN.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,9 +270,11 @@ transition: all 0.35s;
      display: block;
      z-index: 999;
 
- }
+ }*/
 
-
+.img-fluid {
+    width: 100vw;
+}
 
 /* footer css below*/
 .flexfooter {
