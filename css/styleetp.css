@@ -238,7 +238,7 @@ nav.flexheader {
     translate: all 0.25s;
 }
 /* case study main section*/
-.topsection {
+/*.topsection {
     background-image: url(../images/19-April-Desktop-PC_EN.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,9 +271,32 @@ transition: all 0.35s;
      z-index: 999;
 
  }
+.topsection {
+    background-image: url(../images/etpheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100vw;
+}
+.shadow {
+    font-weight: 900;
+}*/
 
-
-
+.img-fluid {
+    width: 100vw;
+}
+.headerimg {
+    z-index: 1;
+    position: relative;
+}
+.flash {
+    width: 15%;
+   top: 250px;
+   right: 100px;
+    position: absolute;
+  
+    z-index: 2;
+}
 /* footer css below*/
 .flexfooter {
     background-color: #19292d;
@@ -843,5 +866,13 @@ padding: 10px 20px;
     padding-top: 70px;
     font-size: 32px;
 
+}
+/*.topsection {
+    height: 550px;
+    width: 100vw;
+}*/
+.flash {
+    top:150px;
+    right: 30px;
 }
 }
